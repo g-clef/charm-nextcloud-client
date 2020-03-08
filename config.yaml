@@ -1,0 +1,21 @@
+options:
+  username:
+    type: user
+    default: "user"
+    description: "The username to use to log into nextcloud."
+  password:
+    type: string
+    default: "mypassword"
+    desription: "the password of the next cloud user"
+  url:
+    type: string
+    default: "https://myserver.com"
+    description: "The URL of the nextcloud server to log in to"
+  install_sources:
+    type: string
+    default: "ppa:nextcloud-devs/client"
+    description: "PPA path to pull the nextcloud client"
+  install_keys:
+    default: "1FCD77DD0DBEF5699AD2610160EE47FBAD3DD469"
+    type: string
+    description: "Cert fingerprint for next cloud client PPA"

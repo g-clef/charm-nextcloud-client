@@ -1,0 +1,16 @@
+name: nextcloud-client
+display-name: Nextcloud Client
+summary: Nextcloud command line client
+maintainer: Aaron Gee-Clough <aaron@g-clef.net>
+description: |
+  Nextcloud is an opensource document sync application, similar to Dropbox. This charm installs
+  the nextcloud command line client, to allow containers to act as clients of nextcloud installations.
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - nextcloud
+  - client
+  - fileserver
+subordinate: false
+series:
+  - bionic
