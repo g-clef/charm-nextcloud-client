@@ -17,7 +17,7 @@ juju deploy /tmp/charm-builds/nextcloud-client --config username=<your nextcloud
 If you are deploying it from the charm store (which may not exist...I may not submit this)
 
 ```
-juju deploy ~g-clef/nextcloud-client
+juju deploy ~cs:g-clef/nextcloud-client
 ```
 You'll want to use the same options as above.
 
