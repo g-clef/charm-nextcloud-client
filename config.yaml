@@ -1,16 +1,20 @@
 options:
   username:
-    type: user
+    type: string
     default: "user"
     description: "The username to use to log into nextcloud."
   password:
     type: string
     default: "mypassword"
-    desription: "the password of the next cloud user"
+    description: "the password of the next cloud user"
   url:
     type: string
     default: "https://myserver.com"
     description: "The URL of the nextcloud server to log in to"
+  directory:
+    type: string
+    default: "nextcloud"
+    description: "Directory name to save nextcloud-sync'd files to (do not make this absolute)"
   install_sources:
     type: string
     default: "ppa:nextcloud-devs/client"
